@@ -1,0 +1,8 @@
+<p>This text will not be copied to your clipboard</p>
+<button (click)="copyToClipboard()">Copy something to clipboard</button>
+
+<br /><br /><br />
+<p #myText>You can also copy text from elements</p>
+<button (click)="copyToClipboardWithParameter(myText)">
+  Copy text from element to clipboard
+</button>
